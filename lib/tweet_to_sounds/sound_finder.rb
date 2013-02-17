@@ -10,10 +10,15 @@ module TweetToSounds
 
     def sounds
       @sounds ||= begin
-        sounds = pick_keywords(@keywords).flat_map do |keyword|
-          pick_results TweetToSounds.freesound.advanced_search(keyword)
+        keywords = pick_keywords(@keywords)
+        threads = keywords.map do |keyword|
+          Thread.new(keyword) do |kw|
+            Thread.current[:results] = \
+              pick_results TweetToSounds.freesound.advanced_search(kw)
+          end
         end
-        stable_sample sounds, TweetToSounds.number_of_sounds
+        results = threads.flat_map { |t| t.join; t[:results] }
+        stable_sample results, TweetToSounds.number_of_sounds
       end
     end
 

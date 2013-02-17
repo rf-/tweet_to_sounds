@@ -18,4 +18,16 @@ module Freesound
       response.sounds
     end
   end
+
+  class Response
+    def sounds
+      return [] if errors[:error]
+
+      @sounds ||= data.map do |sound|
+        result = Sound.new
+        sound.each { |k, v| result.send("#{k}=", v) }
+        result
+      end
+    end
+  end
 end
