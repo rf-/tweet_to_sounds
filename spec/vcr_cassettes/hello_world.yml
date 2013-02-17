@@ -2,7 +2,7 @@
 http_interactions: 
 - request: 
     method: get
-    uri: http://www.freesound.org/api/sounds/search/?api_key=f21ede7f1694428ab829e72f52e3d2df&f=duration:%5B0%20TO%2010%5D&format=json&q=hello&s=rating_desc&sounds_per_page=10
+    uri: http://www.freesound.org/api/sounds/search/?api_key=f21ede7f1694428ab829e72f52e3d2df&f=duration:%5B0%20TO%2010%5D&format=json&q=hello&sounds_per_page=10
     body: 
       encoding: US-ASCII
       string: ""
@@ -19,7 +19,7 @@ http_interactions:
       Server: 
       - nginx/1.0.15
       Date: 
-      - Sun, 17 Feb 2013 03:34:08 GMT
+      - Sun, 17 Feb 2013 03:39:58 GMT
       Content-Type: 
       - application/json; charset=utf-8
       Transfer-Encoding: 
@@ -31,7 +31,7 @@ http_interactions:
       Access-Control-Allow-Origin: 
       - "*"
       X-Freesound-Host: 
-      - fs-appserver2
+      - fs-appserver1
     body: 
       encoding: US-ASCII
       string: |-
@@ -39,35 +39,212 @@ http_interactions:
             "num_results": 120, 
             "sounds": [
                 {
-                    "analysis_stats": "http://www.freesound.org/api/sounds/36294/analysis/", 
-                    "analysis_frames": "http://www.freesound.org/data/analysis/36/36294_164285_frames.json", 
-                    "preview-hq-mp3": "http://www.freesound.org/data/previews/36/36294_164285-hq.mp3", 
-                    "original_filename": "Drum It.wav", 
+                    "analysis_stats": "http://www.freesound.org/api/sounds/123346/analysis/", 
+                    "analysis_frames": "http://www.freesound.org/data/analysis/123/123346_495253_frames.json", 
+                    "preview-hq-mp3": "http://www.freesound.org/data/previews/123/123346_495253-hq.mp3", 
+                    "original_filename": "hello.wav", 
                     "tags": [
-                        "ambient", 
-                        "remix", 
-                        "ugly-organ"
+                        "english", 
+                        "female", 
+                        "hello", 
+                        "latin", 
+                        "voice", 
+                        "woman"
                     ], 
-                    "url": "http://www.freesound.org/people/KatHakaku/sounds/36294/", 
-                    "preview-hq-ogg": "http://www.freesound.org/data/previews/36/36294_164285-hq.ogg", 
-                    "similarity": "http://www.freesound.org/api/sounds/36294/similar/", 
-                    "serve": "http://www.freesound.org/api/sounds/36294/serve/", 
-                    "preview-lq-ogg": "http://www.freesound.org/data/previews/36/36294_164285-lq.ogg", 
-                    "spectral_m": "http://www.freesound.org/data/displays/36/36294_164285_spec_M.jpg", 
-                    "preview-lq-mp3": "http://www.freesound.org/data/previews/36/36294_164285-lq.mp3", 
+                    "url": "http://www.freesound.org/people/MatteusNova/sounds/123346/", 
+                    "preview-hq-ogg": "http://www.freesound.org/data/previews/123/123346_495253-hq.ogg", 
+                    "similarity": "http://www.freesound.org/api/sounds/123346/similar/", 
+                    "serve": "http://www.freesound.org/api/sounds/123346/serve/", 
+                    "spectral_m": "http://www.freesound.org/data/displays/123/123346_495253_spec_M.jpg", 
+                    "preview-lq-mp3": "http://www.freesound.org/data/previews/123/123346_495253-lq.mp3", 
                     "user": {
-                        "username": "KatHakaku", 
-                        "url": "http://www.freesound.org/people/KatHakaku/", 
-                        "ref": "http://www.freesound.org/api/people/KatHakaku/"
+                        "username": "MatteusNova", 
+                        "url": "http://www.freesound.org/people/MatteusNova/", 
+                        "ref": "http://www.freesound.org/api/people/MatteusNova/"
                     }, 
-                    "spectral_l": "http://www.freesound.org/data/displays/36/36294_164285_spec_L.jpg", 
+                    "spectral_l": "http://www.freesound.org/data/displays/123/123346_495253_spec_L.jpg", 
                     "type": "wav", 
-                    "duration": 6.79412698413, 
-                    "waveform_l": "http://www.freesound.org/data/displays/36/36294_164285_wave_L.png", 
-                    "waveform_m": "http://www.freesound.org/data/displays/36/36294_164285_wave_M.png", 
-                    "ref": "http://www.freesound.org/api/sounds/36294/", 
-                    "id": 36294, 
-                    "pack": "http://www.freesound.org/api/packs/2310/"
+                    "duration": 1.6739999999999999, 
+                    "waveform_l": "http://www.freesound.org/data/displays/123/123346_495253_wave_L.png", 
+                    "waveform_m": "http://www.freesound.org/data/displays/123/123346_495253_wave_M.png", 
+                    "ref": "http://www.freesound.org/api/sounds/123346/", 
+                    "id": 123346, 
+                    "preview-lq-ogg": "http://www.freesound.org/data/previews/123/123346_495253-lq.ogg"
+                }, 
+                {
+                    "analysis_stats": "http://www.freesound.org/api/sounds/107932/analysis/", 
+                    "analysis_frames": "http://www.freesound.org/data/analysis/107/107932_1838023_frames.json", 
+                    "preview-hq-mp3": "http://www.freesound.org/data/previews/107/107932_1838023-hq.mp3", 
+                    "original_filename": "hello_hello.wav", 
+                    "tags": [
+                        "female", 
+                        "hello", 
+                        "male", 
+                        "speech", 
+                        "talk", 
+                        "voice"
+                    ], 
+                    "url": "http://www.freesound.org/people/golosiy/sounds/107932/", 
+                    "preview-hq-ogg": "http://www.freesound.org/data/previews/107/107932_1838023-hq.ogg", 
+                    "similarity": "http://www.freesound.org/api/sounds/107932/similar/", 
+                    "serve": "http://www.freesound.org/api/sounds/107932/serve/", 
+                    "spectral_m": "http://www.freesound.org/data/displays/107/107932_1838023_spec_M.jpg", 
+                    "preview-lq-mp3": "http://www.freesound.org/data/previews/107/107932_1838023-lq.mp3", 
+                    "user": {
+                        "username": "golosiy", 
+                        "url": "http://www.freesound.org/people/golosiy/", 
+                        "ref": "http://www.freesound.org/api/people/golosiy/"
+                    }, 
+                    "spectral_l": "http://www.freesound.org/data/displays/107/107932_1838023_spec_L.jpg", 
+                    "type": "wav", 
+                    "duration": 1.16099773243, 
+                    "waveform_l": "http://www.freesound.org/data/displays/107/107932_1838023_wave_L.png", 
+                    "waveform_m": "http://www.freesound.org/data/displays/107/107932_1838023_wave_M.png", 
+                    "ref": "http://www.freesound.org/api/sounds/107932/", 
+                    "id": 107932, 
+                    "preview-lq-ogg": "http://www.freesound.org/data/previews/107/107932_1838023-lq.ogg"
+                }, 
+                {
+                    "analysis_stats": "http://www.freesound.org/api/sounds/164612/analysis/", 
+                    "analysis_frames": "http://www.freesound.org/data/analysis/164/164612_2982740_frames.json", 
+                    "preview-hq-mp3": "http://www.freesound.org/data/previews/164/164612_2982740-hq.mp3", 
+                    "original_filename": "hello.wav", 
+                    "tags": [
+                        "Hello", 
+                        "Voice", 
+                        "saying"
+                    ], 
+                    "url": "http://www.freesound.org/people/steveukguy/sounds/164612/", 
+                    "preview-hq-ogg": "http://www.freesound.org/data/previews/164/164612_2982740-hq.ogg", 
+                    "similarity": "http://www.freesound.org/api/sounds/164612/similar/", 
+                    "serve": "http://www.freesound.org/api/sounds/164612/serve/", 
+                    "preview-lq-ogg": "http://www.freesound.org/data/previews/164/164612_2982740-lq.ogg", 
+                    "spectral_m": "http://www.freesound.org/data/displays/164/164612_2982740_spec_M.jpg", 
+                    "preview-lq-mp3": "http://www.freesound.org/data/previews/164/164612_2982740-lq.mp3", 
+                    "user": {
+                        "username": "steveukguy", 
+                        "url": "http://www.freesound.org/people/steveukguy/", 
+                        "ref": "http://www.freesound.org/api/people/steveukguy/"
+                    }, 
+                    "spectral_l": "http://www.freesound.org/data/displays/164/164612_2982740_spec_L.jpg", 
+                    "type": "wav", 
+                    "duration": 0.50376399999999999, 
+                    "waveform_l": "http://www.freesound.org/data/displays/164/164612_2982740_wave_L.png", 
+                    "waveform_m": "http://www.freesound.org/data/displays/164/164612_2982740_wave_M.png", 
+                    "ref": "http://www.freesound.org/api/sounds/164612/", 
+                    "id": 164612, 
+                    "pack": "http://www.freesound.org/api/packs/10190/"
+                }, 
+                {
+                    "analysis_stats": "http://www.freesound.org/api/sounds/87410/analysis/", 
+                    "analysis_frames": "http://www.freesound.org/data/analysis/87/87410_1369331_frames.json", 
+                    "preview-hq-mp3": "http://www.freesound.org/data/previews/87/87410_1369331-hq.mp3", 
+                    "original_filename": "hello.wav", 
+                    "tags": [
+                        "cave", 
+                        "echo", 
+                        "hello", 
+                        "people", 
+                        "sounds"
+                    ], 
+                    "url": "http://www.freesound.org/people/Mattlm/sounds/87410/", 
+                    "preview-hq-ogg": "http://www.freesound.org/data/previews/87/87410_1369331-hq.ogg", 
+                    "similarity": "http://www.freesound.org/api/sounds/87410/similar/", 
+                    "serve": "http://www.freesound.org/api/sounds/87410/serve/", 
+                    "spectral_m": "http://www.freesound.org/data/displays/87/87410_1369331_spec_M.jpg", 
+                    "preview-lq-mp3": "http://www.freesound.org/data/previews/87/87410_1369331-lq.mp3", 
+                    "user": {
+                        "username": "Mattlm", 
+                        "url": "http://www.freesound.org/people/Mattlm/", 
+                        "ref": "http://www.freesound.org/api/people/Mattlm/"
+                    }, 
+                    "spectral_l": "http://www.freesound.org/data/displays/87/87410_1369331_spec_L.jpg", 
+                    "type": "wav", 
+                    "duration": 6.7000000000000002, 
+                    "waveform_l": "http://www.freesound.org/data/displays/87/87410_1369331_wave_L.png", 
+                    "waveform_m": "http://www.freesound.org/data/displays/87/87410_1369331_wave_M.png", 
+                    "ref": "http://www.freesound.org/api/sounds/87410/", 
+                    "id": 87410, 
+                    "preview-lq-ogg": "http://www.freesound.org/data/previews/87/87410_1369331-lq.ogg"
+                }, 
+                {
+                    "analysis_stats": "http://www.freesound.org/api/sounds/154600/analysis/", 
+                    "analysis_frames": "http://www.freesound.org/data/analysis/154/154600_2337290_frames.json", 
+                    "preview-hq-mp3": "http://www.freesound.org/data/previews/154/154600_2337290-hq.mp3", 
+                    "original_filename": "Hello, Man! 1.wav", 
+                    "tags": [
+                        "cool", 
+                        "hello", 
+                        "goofy-boy", 
+                        "man", 
+                        "cool-boy", 
+                        "goofy", 
+                        "hello-man", 
+                        "dudes", 
+                        "cool-dude", 
+                        "dude", 
+                        "goofy-dude", 
+                        "boy"
+                    ], 
+                    "url": "http://www.freesound.org/people/ecfike/sounds/154600/", 
+                    "preview-hq-ogg": "http://www.freesound.org/data/previews/154/154600_2337290-hq.ogg", 
+                    "similarity": "http://www.freesound.org/api/sounds/154600/similar/", 
+                    "serve": "http://www.freesound.org/api/sounds/154600/serve/", 
+                    "preview-lq-ogg": "http://www.freesound.org/data/previews/154/154600_2337290-lq.ogg", 
+                    "spectral_m": "http://www.freesound.org/data/displays/154/154600_2337290_spec_M.jpg", 
+                    "preview-lq-mp3": "http://www.freesound.org/data/previews/154/154600_2337290-lq.mp3", 
+                    "user": {
+                        "username": "ecfike", 
+                        "url": "http://www.freesound.org/people/ecfike/", 
+                        "ref": "http://www.freesound.org/api/people/ecfike/"
+                    }, 
+                    "spectral_l": "http://www.freesound.org/data/displays/154/154600_2337290_spec_L.jpg", 
+                    "type": "wav", 
+                    "duration": 1.0162800000000001, 
+                    "waveform_l": "http://www.freesound.org/data/displays/154/154600_2337290_wave_L.png", 
+                    "waveform_m": "http://www.freesound.org/data/displays/154/154600_2337290_wave_M.png", 
+                    "ref": "http://www.freesound.org/api/sounds/154600/", 
+                    "id": 154600, 
+                    "pack": "http://www.freesound.org/api/packs/9550/"
+                }, 
+                {
+                    "analysis_stats": "http://www.freesound.org/api/sounds/154599/analysis/", 
+                    "analysis_frames": "http://www.freesound.org/data/analysis/154/154599_2337290_frames.json", 
+                    "preview-hq-mp3": "http://www.freesound.org/data/previews/154/154599_2337290-hq.mp3", 
+                    "original_filename": "Hello, Dude! 1.wav", 
+                    "tags": [
+                        "cool", 
+                        "hello", 
+                        "goofy-boy", 
+                        "cool-boy", 
+                        "goofy", 
+                        "dudes", 
+                        "cool-dude", 
+                        "dude", 
+                        "hello-dude", 
+                        "goofy-dude", 
+                        "boy"
+                    ], 
+                    "url": "http://www.freesound.org/people/ecfike/sounds/154599/", 
+                    "preview-hq-ogg": "http://www.freesound.org/data/previews/154/154599_2337290-hq.ogg", 
+                    "similarity": "http://www.freesound.org/api/sounds/154599/similar/", 
+                    "serve": "http://www.freesound.org/api/sounds/154599/serve/", 
+                    "preview-lq-ogg": "http://www.freesound.org/data/previews/154/154599_2337290-lq.ogg", 
+                    "spectral_m": "http://www.freesound.org/data/displays/154/154599_2337290_spec_M.jpg", 
+                    "preview-lq-mp3": "http://www.freesound.org/data/previews/154/154599_2337290-lq.mp3", 
+                    "user": {
+                        "username": "ecfike", 
+                        "url": "http://www.freesound.org/people/ecfike/", 
+                        "ref": "http://www.freesound.org/api/people/ecfike/"
+                    }, 
+                    "spectral_l": "http://www.freesound.org/data/displays/154/154599_2337290_spec_L.jpg", 
+                    "type": "wav", 
+                    "duration": 1.2703599999999999, 
+                    "waveform_l": "http://www.freesound.org/data/displays/154/154599_2337290_wave_L.png", 
+                    "waveform_m": "http://www.freesound.org/data/displays/154/154599_2337290_wave_M.png", 
+                    "ref": "http://www.freesound.org/api/sounds/154599/", 
+                    "id": 154599, 
+                    "pack": "http://www.freesound.org/api/packs/9550/"
                 }, 
                 {
                     "analysis_stats": "http://www.freesound.org/api/sounds/154598/analysis/", 
@@ -108,233 +285,180 @@ http_interactions:
                     "pack": "http://www.freesound.org/api/packs/9550/"
                 }, 
                 {
-                    "analysis_stats": "http://www.freesound.org/api/sounds/120904/analysis/", 
-                    "analysis_frames": "http://www.freesound.org/data/analysis/120/120904_646701_frames.json", 
-                    "preview-hq-mp3": "http://www.freesound.org/data/previews/120/120904_646701-hq.mp3", 
-                    "original_filename": "test hello mic.wav", 
+                    "analysis_stats": "http://www.freesound.org/api/sounds/131062/analysis/", 
+                    "analysis_frames": "http://www.freesound.org/data/analysis/131/131062_2337290_frames.json", 
+                    "preview-hq-mp3": "http://www.freesound.org/data/previews/131/131062_2337290-hq.mp3", 
+                    "original_filename": "Hello 3.wav", 
                     "tags": [
-                        "livingroom", 
-                        "noise", 
-                        "voice", 
-                        "fun", 
-                        "speech", 
-                        "test", 
-                        "testing", 
-                        "sound", 
+                        "man", 
                         "hello", 
-                        "microphone"
+                        "male", 
+                        "words", 
+                        "nerd", 
+                        "word", 
+                        "voice", 
+                        "boy"
                     ], 
-                    "url": "http://www.freesound.org/people/Kyster/sounds/120904/", 
-                    "preview-hq-ogg": "http://www.freesound.org/data/previews/120/120904_646701-hq.ogg", 
-                    "similarity": "http://www.freesound.org/api/sounds/120904/similar/", 
-                    "serve": "http://www.freesound.org/api/sounds/120904/serve/", 
-                    "spectral_m": "http://www.freesound.org/data/displays/120/120904_646701_spec_M.jpg", 
-                    "preview-lq-mp3": "http://www.freesound.org/data/previews/120/120904_646701-lq.mp3", 
+                    "url": "http://www.freesound.org/people/ecfike/sounds/131062/", 
+                    "preview-hq-ogg": "http://www.freesound.org/data/previews/131/131062_2337290-hq.ogg", 
+                    "similarity": "http://www.freesound.org/api/sounds/131062/similar/", 
+                    "serve": "http://www.freesound.org/api/sounds/131062/serve/", 
+                    "preview-lq-ogg": "http://www.freesound.org/data/previews/131/131062_2337290-lq.ogg", 
+                    "spectral_m": "http://www.freesound.org/data/displays/131/131062_2337290_spec_M.jpg", 
+                    "preview-lq-mp3": "http://www.freesound.org/data/previews/131/131062_2337290-lq.mp3", 
                     "user": {
-                        "username": "Kyster", 
-                        "url": "http://www.freesound.org/people/Kyster/", 
-                        "ref": "http://www.freesound.org/api/people/Kyster/"
+                        "username": "ecfike", 
+                        "url": "http://www.freesound.org/people/ecfike/", 
+                        "ref": "http://www.freesound.org/api/people/ecfike/"
                     }, 
-                    "spectral_l": "http://www.freesound.org/data/displays/120/120904_646701_spec_L.jpg", 
+                    "spectral_l": "http://www.freesound.org/data/displays/131/131062_2337290_spec_L.jpg", 
                     "type": "wav", 
-                    "duration": 7.4240362811800003, 
-                    "waveform_l": "http://www.freesound.org/data/displays/120/120904_646701_wave_L.png", 
-                    "waveform_m": "http://www.freesound.org/data/displays/120/120904_646701_wave_M.png", 
-                    "ref": "http://www.freesound.org/api/sounds/120904/", 
-                    "id": 120904, 
-                    "preview-lq-ogg": "http://www.freesound.org/data/previews/120/120904_646701-lq.ogg"
+                    "duration": 1.16503, 
+                    "waveform_l": "http://www.freesound.org/data/displays/131/131062_2337290_wave_L.png", 
+                    "waveform_m": "http://www.freesound.org/data/displays/131/131062_2337290_wave_M.png", 
+                    "ref": "http://www.freesound.org/api/sounds/131062/", 
+                    "id": 131062, 
+                    "pack": "http://www.freesound.org/api/packs/8210/"
                 }, 
                 {
-                    "analysis_stats": "http://www.freesound.org/api/sounds/55474/analysis/", 
-                    "analysis_frames": "http://www.freesound.org/data/analysis/55/55474_164285_frames.json", 
-                    "preview-hq-mp3": "http://www.freesound.org/data/previews/55/55474_164285-hq.mp3", 
-                    "original_filename": "NickyD2.wav", 
-                    "tags": [
-                        "deathcore", 
-                        "e", 
-                        "fuzzy", 
-                        "glitchbreak", 
-                        "h", 
-                        "k", 
-                        "l", 
-                        "love", 
-                        "o", 
-                        "pink", 
-                        "processed", 
-                        "small", 
-                        "t", 
-                        "thumb", 
-                        "y"
-                    ], 
-                    "url": "http://www.freesound.org/people/KatHakaku/sounds/55474/", 
-                    "preview-hq-ogg": "http://www.freesound.org/data/previews/55/55474_164285-hq.ogg", 
-                    "similarity": "http://www.freesound.org/api/sounds/55474/similar/", 
-                    "serve": "http://www.freesound.org/api/sounds/55474/serve/", 
-                    "preview-lq-ogg": "http://www.freesound.org/data/previews/55/55474_164285-lq.ogg", 
-                    "spectral_m": "http://www.freesound.org/data/displays/55/55474_164285_spec_M.jpg", 
-                    "preview-lq-mp3": "http://www.freesound.org/data/previews/55/55474_164285-lq.mp3", 
-                    "user": {
-                        "username": "KatHakaku", 
-                        "url": "http://www.freesound.org/people/KatHakaku/", 
-                        "ref": "http://www.freesound.org/api/people/KatHakaku/"
-                    }, 
-                    "spectral_l": "http://www.freesound.org/data/displays/55/55474_164285_spec_L.jpg", 
-                    "type": "wav", 
-                    "duration": 5.3333333333299997, 
-                    "waveform_l": "http://www.freesound.org/data/displays/55/55474_164285_wave_L.png", 
-                    "waveform_m": "http://www.freesound.org/data/displays/55/55474_164285_wave_M.png", 
-                    "ref": "http://www.freesound.org/api/sounds/55474/", 
-                    "id": 55474, 
-                    "pack": "http://www.freesound.org/api/packs/3549/"
-                }, 
-                {
-                    "analysis_stats": "http://www.freesound.org/api/sounds/55475/analysis/", 
-                    "analysis_frames": "http://www.freesound.org/data/analysis/55/55475_164285_frames.json", 
-                    "preview-hq-mp3": "http://www.freesound.org/data/previews/55/55475_164285-hq.mp3", 
-                    "original_filename": "SiKik.wav", 
-                    "tags": [
-                        "deathcore", 
-                        "e", 
-                        "fuzzy", 
-                        "glitchbreak", 
-                        "h", 
-                        "k", 
-                        "l", 
-                        "love", 
-                        "o", 
-                        "pink", 
-                        "processed", 
-                        "small", 
-                        "t", 
-                        "thumb", 
-                        "y"
-                    ], 
-                    "url": "http://www.freesound.org/people/KatHakaku/sounds/55475/", 
-                    "preview-hq-ogg": "http://www.freesound.org/data/previews/55/55475_164285-hq.ogg", 
-                    "similarity": "http://www.freesound.org/api/sounds/55475/similar/", 
-                    "serve": "http://www.freesound.org/api/sounds/55475/serve/", 
-                    "preview-lq-ogg": "http://www.freesound.org/data/previews/55/55475_164285-lq.ogg", 
-                    "spectral_m": "http://www.freesound.org/data/displays/55/55475_164285_spec_M.jpg", 
-                    "preview-lq-mp3": "http://www.freesound.org/data/previews/55/55475_164285-lq.mp3", 
-                    "user": {
-                        "username": "KatHakaku", 
-                        "url": "http://www.freesound.org/people/KatHakaku/", 
-                        "ref": "http://www.freesound.org/api/people/KatHakaku/"
-                    }, 
-                    "spectral_l": "http://www.freesound.org/data/displays/55/55475_164285_spec_L.jpg", 
-                    "type": "wav", 
-                    "duration": 5.3333333333299997, 
-                    "waveform_l": "http://www.freesound.org/data/displays/55/55475_164285_wave_L.png", 
-                    "waveform_m": "http://www.freesound.org/data/displays/55/55475_164285_wave_M.png", 
-                    "ref": "http://www.freesound.org/api/sounds/55475/", 
-                    "id": 55475, 
-                    "pack": "http://www.freesound.org/api/packs/3549/"
-                }, 
-                {
-                    "analysis_stats": "http://www.freesound.org/api/sounds/55308/analysis/", 
-                    "analysis_frames": "http://www.freesound.org/data/analysis/55/55308_164285_frames.json", 
-                    "preview-hq-mp3": "http://www.freesound.org/data/previews/55/55308_164285-hq.mp3", 
+                    "analysis_stats": "http://www.freesound.org/api/sounds/131061/analysis/", 
+                    "analysis_frames": "http://www.freesound.org/data/analysis/131/131061_2337290_frames.json", 
+                    "preview-hq-mp3": "http://www.freesound.org/data/previews/131/131061_2337290-hq.mp3", 
                     "original_filename": "Hello 1.wav", 
                     "tags": [
-                        "ambient", 
-                        "backdrop", 
-                        "background", 
-                        "bass", 
-                        "bleep", 
-                        "blip", 
-                        "dirty", 
-                        "electro", 
-                        "glitch", 
-                        "idm", 
-                        "melody", 
-                        "nord", 
-                        "resonant", 
-                        "rythm", 
-                        "soundscape", 
-                        "tonal"
+                        "man", 
+                        "hello", 
+                        "male", 
+                        "words", 
+                        "word", 
+                        "voice", 
+                        "boy"
                     ], 
-                    "url": "http://www.freesound.org/people/KatHakaku/sounds/55308/", 
-                    "preview-hq-ogg": "http://www.freesound.org/data/previews/55/55308_164285-hq.ogg", 
-                    "similarity": "http://www.freesound.org/api/sounds/55308/similar/", 
-                    "serve": "http://www.freesound.org/api/sounds/55308/serve/", 
-                    "preview-lq-ogg": "http://www.freesound.org/data/previews/55/55308_164285-lq.ogg", 
-                    "spectral_m": "http://www.freesound.org/data/displays/55/55308_164285_spec_M.jpg", 
-                    "preview-lq-mp3": "http://www.freesound.org/data/previews/55/55308_164285-lq.mp3", 
+                    "url": "http://www.freesound.org/people/ecfike/sounds/131061/", 
+                    "preview-hq-ogg": "http://www.freesound.org/data/previews/131/131061_2337290-hq.ogg", 
+                    "similarity": "http://www.freesound.org/api/sounds/131061/similar/", 
+                    "serve": "http://www.freesound.org/api/sounds/131061/serve/", 
+                    "preview-lq-ogg": "http://www.freesound.org/data/previews/131/131061_2337290-lq.ogg", 
+                    "spectral_m": "http://www.freesound.org/data/displays/131/131061_2337290_spec_M.jpg", 
+                    "preview-lq-mp3": "http://www.freesound.org/data/previews/131/131061_2337290-lq.mp3", 
                     "user": {
-                        "username": "KatHakaku", 
-                        "url": "http://www.freesound.org/people/KatHakaku/", 
-                        "ref": "http://www.freesound.org/api/people/KatHakaku/"
+                        "username": "ecfike", 
+                        "url": "http://www.freesound.org/people/ecfike/", 
+                        "ref": "http://www.freesound.org/api/people/ecfike/"
                     }, 
-                    "spectral_l": "http://www.freesound.org/data/displays/55/55308_164285_spec_L.jpg", 
+                    "spectral_l": "http://www.freesound.org/data/displays/131/131061_2337290_spec_L.jpg", 
                     "type": "wav", 
-                    "duration": 8.0, 
-                    "waveform_l": "http://www.freesound.org/data/displays/55/55308_164285_wave_L.png", 
-                    "waveform_m": "http://www.freesound.org/data/displays/55/55308_164285_wave_M.png", 
-                    "ref": "http://www.freesound.org/api/sounds/55308/", 
-                    "id": 55308, 
-                    "pack": "http://www.freesound.org/api/packs/3465/"
+                    "duration": 0.82238100000000003, 
+                    "waveform_l": "http://www.freesound.org/data/displays/131/131061_2337290_wave_L.png", 
+                    "waveform_m": "http://www.freesound.org/data/displays/131/131061_2337290_wave_M.png", 
+                    "ref": "http://www.freesound.org/api/sounds/131061/", 
+                    "id": 131061, 
+                    "pack": "http://www.freesound.org/api/packs/8210/"
                 }, 
                 {
-                    "analysis_stats": "http://www.freesound.org/api/sounds/36303/analysis/", 
-                    "analysis_frames": "http://www.freesound.org/data/analysis/36/36303_164285_frames.json", 
-                    "preview-hq-mp3": "http://www.freesound.org/data/previews/36/36303_164285-hq.mp3", 
-                    "original_filename": "Ugly Inro.wav", 
+                    "analysis_stats": "http://www.freesound.org/api/sounds/50780/analysis/", 
+                    "analysis_frames": "http://www.freesound.org/data/analysis/50/50780_322568_frames.json", 
+                    "preview-hq-mp3": "http://www.freesound.org/data/previews/50/50780_322568-hq.mp3", 
+                    "original_filename": "hello.ogg", 
                     "tags": [
-                        "ambient", 
-                        "remix", 
-                        "ugly-organ"
+                        "hello"
                     ], 
-                    "url": "http://www.freesound.org/people/KatHakaku/sounds/36303/", 
-                    "preview-hq-ogg": "http://www.freesound.org/data/previews/36/36303_164285-hq.ogg", 
-                    "similarity": "http://www.freesound.org/api/sounds/36303/similar/", 
-                    "serve": "http://www.freesound.org/api/sounds/36303/serve/", 
-                    "preview-lq-ogg": "http://www.freesound.org/data/previews/36/36303_164285-lq.ogg", 
-                    "spectral_m": "http://www.freesound.org/data/displays/36/36303_164285_spec_M.jpg", 
-                    "preview-lq-mp3": "http://www.freesound.org/data/previews/36/36303_164285-lq.mp3", 
+                    "url": "http://www.freesound.org/people/smcameron/sounds/50780/", 
+                    "preview-hq-ogg": "http://www.freesound.org/data/previews/50/50780_322568-hq.ogg", 
+                    "similarity": "http://www.freesound.org/api/sounds/50780/similar/", 
+                    "serve": "http://www.freesound.org/api/sounds/50780/serve/", 
+                    "spectral_m": "http://www.freesound.org/data/displays/50/50780_322568_spec_M.jpg", 
+                    "preview-lq-mp3": "http://www.freesound.org/data/previews/50/50780_322568-lq.mp3", 
                     "user": {
-                        "username": "KatHakaku", 
-                        "url": "http://www.freesound.org/people/KatHakaku/", 
-                        "ref": "http://www.freesound.org/api/people/KatHakaku/"
+                        "username": "smcameron", 
+                        "url": "http://www.freesound.org/people/smcameron/", 
+                        "ref": "http://www.freesound.org/api/people/smcameron/"
                     }, 
-                    "spectral_l": "http://www.freesound.org/data/displays/36/36303_164285_spec_L.jpg", 
-                    "type": "wav", 
-                    "duration": 6.8616099773199997, 
-                    "waveform_l": "http://www.freesound.org/data/displays/36/36303_164285_wave_L.png", 
-                    "waveform_m": "http://www.freesound.org/data/displays/36/36303_164285_wave_M.png", 
-                    "ref": "http://www.freesound.org/api/sounds/36303/", 
-                    "id": 36303, 
-                    "pack": "http://www.freesound.org/api/packs/2310/"
-                }, 
+                    "spectral_l": "http://www.freesound.org/data/displays/50/50780_322568_spec_L.jpg", 
+                    "type": "ogg", 
+                    "duration": 5.5631746031700002, 
+                    "waveform_l": "http://www.freesound.org/data/displays/50/50780_322568_wave_L.png", 
+                    "waveform_m": "http://www.freesound.org/data/displays/50/50780_322568_wave_M.png", 
+                    "ref": "http://www.freesound.org/api/sounds/50780/", 
+                    "id": 50780, 
+                    "preview-lq-ogg": "http://www.freesound.org/data/previews/50/50780_322568-lq.ogg"
+                }
+            ], 
+            "num_pages": 12, 
+            "next": "http://www.freesound.org/api/sounds/search/?q=hello&p=2&f=duration:[0%20TO%2010]&s=score&g=&sounds_per_page=10"
+        }
+    http_version: 
+  recorded_at: Sun, 17 Feb 2013 03:39:59 GMT
+- request: 
+    method: get
+    uri: http://www.freesound.org/api/sounds/search/?api_key=f21ede7f1694428ab829e72f52e3d2df&f=duration:%5B0%20TO%2010%5D&format=json&q=world&sounds_per_page=10
+    body: 
+      encoding: US-ASCII
+      string: ""
+    headers: 
+      Accept: 
+      - "*/*"
+      User-Agent: 
+      - Ruby
+  response: 
+    status: 
+      code: 200
+      message: OK
+    headers: 
+      Server: 
+      - nginx/1.0.15
+      Date: 
+      - Sun, 17 Feb 2013 03:39:58 GMT
+      Content-Type: 
+      - application/json; charset=utf-8
+      Transfer-Encoding: 
+      - chunked
+      Connection: 
+      - keep-alive
+      Vary: 
+      - Authorization, Cookie
+      Access-Control-Allow-Origin: 
+      - "*"
+      X-Freesound-Host: 
+      - fs-appserver2
+    body: 
+      encoding: US-ASCII
+      string: |-
+        {
+            "num_results": 428, 
+            "sounds": [
                 {
-                    "analysis_stats": "http://www.freesound.org/api/sounds/36297/analysis/", 
-                    "analysis_frames": "http://www.freesound.org/data/analysis/36/36297_164285_frames.json", 
-                    "preview-hq-mp3": "http://www.freesound.org/data/previews/36/36297_164285-hq.mp3", 
-                    "original_filename": "Flower Loops Ambient No Pad.wav", 
+                    "analysis_stats": "http://www.freesound.org/api/sounds/170719/analysis/", 
+                    "analysis_frames": "http://www.freesound.org/data/analysis/170/170719_2962530_frames.json", 
+                    "preview-hq-mp3": "http://www.freesound.org/data/previews/170/170719_2962530-hq.mp3", 
+                    "original_filename": "End of the world (voice)", 
                     "tags": [
-                        "ambient", 
-                        "remix", 
-                        "ugly-organ"
+                        "voice", 
+                        "world", 
+                        "deep", 
+                        "end", 
+                        "male", 
+                        "voiceover"
                     ], 
-                    "url": "http://www.freesound.org/people/KatHakaku/sounds/36297/", 
-                    "preview-hq-ogg": "http://www.freesound.org/data/previews/36/36297_164285-hq.ogg", 
-                    "similarity": "http://www.freesound.org/api/sounds/36297/similar/", 
-                    "serve": "http://www.freesound.org/api/sounds/36297/serve/", 
-                    "preview-lq-ogg": "http://www.freesound.org/data/previews/36/36297_164285-lq.ogg", 
-                    "spectral_m": "http://www.freesound.org/data/displays/36/36297_164285_spec_M.jpg", 
-                    "preview-lq-mp3": "http://www.freesound.org/data/previews/36/36297_164285-lq.mp3", 
+                    "url": "http://www.freesound.org/people/Speedenza/sounds/170719/", 
+                    "preview-hq-ogg": "http://www.freesound.org/data/previews/170/170719_2962530-hq.ogg", 
+                    "similarity": "http://www.freesound.org/api/sounds/170719/similar/", 
+                    "serve": "http://www.freesound.org/api/sounds/170719/serve/", 
+                    "spectral_m": "http://www.freesound.org/data/displays/170/170719_2962530_spec_M.jpg", 
+                    "preview-lq-mp3": "http://www.freesound.org/data/previews/170/170719_2962530-lq.mp3", 
                     "user": {
-                        "username": "KatHakaku", 
-                        "url": "http://www.freesound.org/people/KatHakaku/", 
-                        "ref": "http://www.freesound.org/api/people/KatHakaku/"
+                        "username": "Speedenza", 
+                        "url": "http://www.freesound.org/people/Speedenza/", 
+                        "ref": "http://www.freesound.org/api/people/Speedenza/"
                     }, 
-                    "spectral_l": "http://www.freesound.org/data/displays/36/36297_164285_spec_L.jpg", 
+                    "spectral_l": "http://www.freesound.org/data/displays/170/170719_2962530_spec_L.jpg", 
                     "type": "wav", 
-                    "duration": 6.8616099773199997, 
-                    "waveform_l": "http://www.freesound.org/data/displays/36/36297_164285_wave_L.png", 
-                    "waveform_m": "http://www.freesound.org/data/displays/36/36297_164285_wave_M.png", 
-                    "ref": "http://www.freesound.org/api/sounds/36297/", 
-                    "id": 36297, 
-                    "pack": "http://www.freesound.org/api/packs/2310/"
+                    "duration": 3.4365800000000002, 
+                    "waveform_l": "http://www.freesound.org/data/displays/170/170719_2962530_wave_L.png", 
+                    "waveform_m": "http://www.freesound.org/data/displays/170/170719_2962530_wave_M.png", 
+                    "ref": "http://www.freesound.org/api/sounds/170719/", 
+                    "id": 170719, 
+                    "preview-lq-ogg": "http://www.freesound.org/data/previews/170/170719_2962530-lq.ogg"
                 }, 
                 {
                     "analysis_stats": "http://www.freesound.org/api/sounds/173237/analysis/", 
@@ -375,77 +499,303 @@ http_interactions:
                     "pack": "http://www.freesound.org/api/packs/10813/"
                 }, 
                 {
-                    "analysis_stats": "http://www.freesound.org/api/sounds/94567/analysis/", 
-                    "analysis_frames": "http://www.freesound.org/data/analysis/94/94567_2_frames.json", 
-                    "preview-hq-mp3": "http://www.freesound.org/data/previews/94/94567_2-hq.mp3", 
-                    "original_filename": "090719_01.wav", 
+                    "analysis_stats": "http://www.freesound.org/api/sounds/129361/analysis/", 
+                    "analysis_frames": "http://www.freesound.org/data/analysis/129/129361_1928537_frames.json", 
+                    "preview-hq-mp3": "http://www.freesound.org/data/previews/129/129361_1928537-hq.mp3", 
+                    "original_filename": "Discover the World and Change your mind", 
                     "tags": [
-                        "ignore", 
-                        "test"
+                        "your", 
+                        "change", 
+                        "Discover", 
+                        "mind", 
+                        "world"
                     ], 
-                    "url": "http://www.freesound.org/people/Bram/sounds/94567/", 
-                    "preview-hq-ogg": "http://www.freesound.org/data/previews/94/94567_2-hq.ogg", 
-                    "similarity": "http://www.freesound.org/api/sounds/94567/similar/", 
-                    "serve": "http://www.freesound.org/api/sounds/94567/serve/", 
-                    "preview-lq-ogg": "http://www.freesound.org/data/previews/94/94567_2-lq.ogg", 
-                    "spectral_m": "http://www.freesound.org/data/displays/94/94567_2_spec_M.jpg", 
-                    "preview-lq-mp3": "http://www.freesound.org/data/previews/94/94567_2-lq.mp3", 
+                    "url": "http://www.freesound.org/people/leonschi13/sounds/129361/", 
+                    "preview-hq-ogg": "http://www.freesound.org/data/previews/129/129361_1928537-hq.ogg", 
+                    "similarity": "http://www.freesound.org/api/sounds/129361/similar/", 
+                    "serve": "http://www.freesound.org/api/sounds/129361/serve/", 
+                    "preview-lq-ogg": "http://www.freesound.org/data/previews/129/129361_1928537-lq.ogg", 
+                    "spectral_m": "http://www.freesound.org/data/displays/129/129361_1928537_spec_M.jpg", 
+                    "preview-lq-mp3": "http://www.freesound.org/data/previews/129/129361_1928537-lq.mp3", 
                     "user": {
-                        "username": "Bram", 
-                        "url": "http://www.freesound.org/people/Bram/", 
-                        "ref": "http://www.freesound.org/api/people/Bram/"
+                        "username": "leonschi13", 
+                        "url": "http://www.freesound.org/people/leonschi13/", 
+                        "ref": "http://www.freesound.org/api/people/leonschi13/"
                     }, 
-                    "spectral_l": "http://www.freesound.org/data/displays/94/94567_2_spec_L.jpg", 
+                    "spectral_l": "http://www.freesound.org/data/displays/129/129361_1928537_spec_L.jpg", 
+                    "type": "mp3", 
+                    "duration": 4.2851499999999998, 
+                    "waveform_l": "http://www.freesound.org/data/displays/129/129361_1928537_wave_L.png", 
+                    "waveform_m": "http://www.freesound.org/data/displays/129/129361_1928537_wave_M.png", 
+                    "ref": "http://www.freesound.org/api/sounds/129361/", 
+                    "id": 129361, 
+                    "pack": "http://www.freesound.org/api/packs/8101/"
+                }, 
+                {
+                    "analysis_stats": "http://www.freesound.org/api/sounds/151643/analysis/", 
+                    "analysis_frames": "http://www.freesound.org/data/analysis/151/151643_2747016_frames.json", 
+                    "preview-hq-mp3": "http://www.freesound.org/data/previews/151/151643_2747016-hq.mp3", 
+                    "original_filename": "WWIII.wav", 
+                    "tags": [
+                        "music", 
+                        "fictional", 
+                        "war", 
+                        "iii", 
+                        "world"
+                    ], 
+                    "url": "http://www.freesound.org/people/hawkfoundation/sounds/151643/", 
+                    "preview-hq-ogg": "http://www.freesound.org/data/previews/151/151643_2747016-hq.ogg", 
+                    "similarity": "http://www.freesound.org/api/sounds/151643/similar/", 
+                    "serve": "http://www.freesound.org/api/sounds/151643/serve/", 
+                    "preview-lq-ogg": "http://www.freesound.org/data/previews/151/151643_2747016-lq.ogg", 
+                    "spectral_m": "http://www.freesound.org/data/displays/151/151643_2747016_spec_M.jpg", 
+                    "preview-lq-mp3": "http://www.freesound.org/data/previews/151/151643_2747016-lq.mp3", 
+                    "user": {
+                        "username": "hawkfoundation", 
+                        "url": "http://www.freesound.org/people/hawkfoundation/", 
+                        "ref": "http://www.freesound.org/api/people/hawkfoundation/"
+                    }, 
+                    "spectral_l": "http://www.freesound.org/data/displays/151/151643_2747016_spec_L.jpg", 
                     "type": "wav", 
-                    "duration": 3.6687528344699998, 
-                    "waveform_l": "http://www.freesound.org/data/displays/94/94567_2_wave_L.png", 
-                    "waveform_m": "http://www.freesound.org/data/displays/94/94567_2_wave_M.png", 
-                    "ref": "http://www.freesound.org/api/sounds/94567/", 
-                    "id": 94567, 
-                    "pack": "http://www.freesound.org/api/packs/6516/"
+                    "duration": 7.6250099999999996, 
+                    "waveform_l": "http://www.freesound.org/data/displays/151/151643_2747016_wave_L.png", 
+                    "waveform_m": "http://www.freesound.org/data/displays/151/151643_2747016_wave_M.png", 
+                    "ref": "http://www.freesound.org/api/sounds/151643/", 
+                    "id": 151643, 
+                    "pack": "http://www.freesound.org/api/packs/9375/"
+                }, 
+                {
+                    "analysis_stats": "http://www.freesound.org/api/sounds/171104/analysis/", 
+                    "analysis_frames": "http://www.freesound.org/data/analysis/171/171104_2394245_frames.json", 
+                    "preview-hq-mp3": "http://www.freesound.org/data/previews/171/171104_2394245-hq.mp3", 
+                    "original_filename": "kick_gettinglaid.wav", 
+                    "tags": [
+                        "kick", 
+                        "layered", 
+                        "Wray", 
+                        "Deep", 
+                        "House", 
+                        "Bassdrum", 
+                        "drum", 
+                        "60", 
+                        "by", 
+                        "world", 
+                        "phase", 
+                        "Round", 
+                        "tr909", 
+                        "mpc", 
+                        "2012", 
+                        "2013", 
+                        "Kick", 
+                        "808", 
+                        "boomy", 
+                        "Dan", 
+                        "4000", 
+                        "best", 
+                        "Roland", 
+                        "kicks", 
+                        "brought", 
+                        "one", 
+                        "DWSD", 
+                        "rounded"
+                    ], 
+                    "url": "http://www.freesound.org/people/DWSD/sounds/171104/", 
+                    "preview-hq-ogg": "http://www.freesound.org/data/previews/171/171104_2394245-hq.ogg", 
+                    "similarity": "http://www.freesound.org/api/sounds/171104/similar/", 
+                    "serve": "http://www.freesound.org/api/sounds/171104/serve/", 
+                    "preview-lq-ogg": "http://www.freesound.org/data/previews/171/171104_2394245-lq.ogg", 
+                    "spectral_m": "http://www.freesound.org/data/displays/171/171104_2394245_spec_M.jpg", 
+                    "preview-lq-mp3": "http://www.freesound.org/data/previews/171/171104_2394245-lq.mp3", 
+                    "user": {
+                        "username": "DWSD", 
+                        "url": "http://www.freesound.org/people/DWSD/", 
+                        "ref": "http://www.freesound.org/api/people/DWSD/"
+                    }, 
+                    "spectral_l": "http://www.freesound.org/data/displays/171/171104_2394245_spec_L.jpg", 
+                    "type": "wav", 
+                    "duration": 0.4839, 
+                    "waveform_l": "http://www.freesound.org/data/displays/171/171104_2394245_wave_L.png", 
+                    "waveform_m": "http://www.freesound.org/data/displays/171/171104_2394245_wave_M.png", 
+                    "ref": "http://www.freesound.org/api/sounds/171104/", 
+                    "id": 171104, 
+                    "pack": "http://www.freesound.org/api/packs/10679/"
+                }, 
+                {
+                    "analysis_stats": "http://www.freesound.org/api/sounds/169428/analysis/", 
+                    "analysis_frames": "http://www.freesound.org/data/analysis/169/169428_2767799_frames.json", 
+                    "preview-hq-mp3": "http://www.freesound.org/data/previews/169/169428_2767799-hq.mp3", 
+                    "original_filename": "deep effect 3.wav", 
+                    "tags": [
+                        "out", 
+                        "world", 
+                        "underground", 
+                        "strange", 
+                        "alien", 
+                        "sweep", 
+                        "this", 
+                        "space", 
+                        "atmosphere"
+                    ], 
+                    "url": "http://www.freesound.org/people/lamburg/sounds/169428/", 
+                    "preview-hq-ogg": "http://www.freesound.org/data/previews/169/169428_2767799-hq.ogg", 
+                    "similarity": "http://www.freesound.org/api/sounds/169428/similar/", 
+                    "serve": "http://www.freesound.org/api/sounds/169428/serve/", 
+                    "preview-lq-ogg": "http://www.freesound.org/data/previews/169/169428_2767799-lq.ogg", 
+                    "spectral_m": "http://www.freesound.org/data/displays/169/169428_2767799_spec_M.jpg", 
+                    "preview-lq-mp3": "http://www.freesound.org/data/previews/169/169428_2767799-lq.mp3", 
+                    "user": {
+                        "username": "lamburg", 
+                        "url": "http://www.freesound.org/people/lamburg/", 
+                        "ref": "http://www.freesound.org/api/people/lamburg/"
+                    }, 
+                    "spectral_l": "http://www.freesound.org/data/displays/169/169428_2767799_spec_L.jpg", 
+                    "type": "wav", 
+                    "duration": 8.3604800000000008, 
+                    "waveform_l": "http://www.freesound.org/data/displays/169/169428_2767799_wave_L.png", 
+                    "waveform_m": "http://www.freesound.org/data/displays/169/169428_2767799_wave_M.png", 
+                    "ref": "http://www.freesound.org/api/sounds/169428/", 
+                    "id": 169428, 
+                    "pack": "http://www.freesound.org/api/packs/10539/"
+                }, 
+                {
+                    "analysis_stats": "http://www.freesound.org/api/sounds/167088/analysis/", 
+                    "analysis_frames": "http://www.freesound.org/data/analysis/167/167088_2790050_frames.json", 
+                    "preview-hq-mp3": "http://www.freesound.org/data/previews/167/167088_2790050-hq.mp3", 
+                    "original_filename": "Sarangi -G3.wav", 
+                    "tags": [
+                        "Strings", 
+                        "Violin", 
+                        "Ethnic", 
+                        "Indian", 
+                        "Erhu", 
+                        "Lyra", 
+                        "Kemanche", 
+                        "World", 
+                        "Sarangi"
+                    ], 
+                    "url": "http://www.freesound.org/people/Fantom57/sounds/167088/", 
+                    "preview-hq-ogg": "http://www.freesound.org/data/previews/167/167088_2790050-hq.ogg", 
+                    "similarity": "http://www.freesound.org/api/sounds/167088/similar/", 
+                    "serve": "http://www.freesound.org/api/sounds/167088/serve/", 
+                    "spectral_m": "http://www.freesound.org/data/displays/167/167088_2790050_spec_M.jpg", 
+                    "preview-lq-mp3": "http://www.freesound.org/data/previews/167/167088_2790050-lq.mp3", 
+                    "user": {
+                        "username": "Fantom57", 
+                        "url": "http://www.freesound.org/people/Fantom57/", 
+                        "ref": "http://www.freesound.org/api/people/Fantom57/"
+                    }, 
+                    "spectral_l": "http://www.freesound.org/data/displays/167/167088_2790050_spec_L.jpg", 
+                    "type": "wav", 
+                    "duration": 4.2761699999999996, 
+                    "waveform_l": "http://www.freesound.org/data/displays/167/167088_2790050_wave_L.png", 
+                    "waveform_m": "http://www.freesound.org/data/displays/167/167088_2790050_wave_M.png", 
+                    "ref": "http://www.freesound.org/api/sounds/167088/", 
+                    "id": 167088, 
+                    "preview-lq-ogg": "http://www.freesound.org/data/previews/167/167088_2790050-lq.ogg"
+                }, 
+                {
+                    "analysis_stats": "http://www.freesound.org/api/sounds/160895/analysis/", 
+                    "analysis_frames": "http://www.freesound.org/data/analysis/160/160895_2790050_frames.json", 
+                    "preview-hq-mp3": "http://www.freesound.org/data/previews/160/160895_2790050-hq.mp3", 
+                    "original_filename": "Shakuhachi-breathy.WAV", 
+                    "tags": [
+                        "World", 
+                        "Flute-Shakuhachi", 
+                        "Music", 
+                        "Japanese", 
+                        "Flute", 
+                        "Flute-Ethnic"
+                    ], 
+                    "url": "http://www.freesound.org/people/Fantom57/sounds/160895/", 
+                    "preview-hq-ogg": "http://www.freesound.org/data/previews/160/160895_2790050-hq.ogg", 
+                    "similarity": "http://www.freesound.org/api/sounds/160895/similar/", 
+                    "serve": "http://www.freesound.org/api/sounds/160895/serve/", 
+                    "spectral_m": "http://www.freesound.org/data/displays/160/160895_2790050_spec_M.jpg", 
+                    "preview-lq-mp3": "http://www.freesound.org/data/previews/160/160895_2790050-lq.mp3", 
+                    "user": {
+                        "username": "Fantom57", 
+                        "url": "http://www.freesound.org/people/Fantom57/", 
+                        "ref": "http://www.freesound.org/api/people/Fantom57/"
+                    }, 
+                    "spectral_l": "http://www.freesound.org/data/displays/160/160895_2790050_spec_L.jpg", 
+                    "type": "wav", 
+                    "duration": 6.9764600000000003, 
+                    "waveform_l": "http://www.freesound.org/data/displays/160/160895_2790050_wave_L.png", 
+                    "waveform_m": "http://www.freesound.org/data/displays/160/160895_2790050_wave_M.png", 
+                    "ref": "http://www.freesound.org/api/sounds/160895/", 
+                    "id": 160895, 
+                    "preview-lq-ogg": "http://www.freesound.org/data/previews/160/160895_2790050-lq.ogg"
+                }, 
+                {
+                    "analysis_stats": "http://www.freesound.org/api/sounds/160670/analysis/", 
+                    "analysis_frames": "http://www.freesound.org/data/analysis/160/160670_2790050_frames.json", 
+                    "preview-hq-mp3": "http://www.freesound.org/data/previews/160/160670_2790050-hq.mp3", 
+                    "original_filename": "5-Dis 4.wav", 
+                    "tags": [
+                        "Instruments", 
+                        "Sitar-Multisample", 
+                        "Oriental", 
+                        "India-Ethnic", 
+                        "World"
+                    ], 
+                    "url": "http://www.freesound.org/people/Fantom57/sounds/160670/", 
+                    "preview-hq-ogg": "http://www.freesound.org/data/previews/160/160670_2790050-hq.ogg", 
+                    "similarity": "http://www.freesound.org/api/sounds/160670/similar/", 
+                    "serve": "http://www.freesound.org/api/sounds/160670/serve/", 
+                    "preview-lq-ogg": "http://www.freesound.org/data/previews/160/160670_2790050-lq.ogg", 
+                    "spectral_m": "http://www.freesound.org/data/displays/160/160670_2790050_spec_M.jpg", 
+                    "preview-lq-mp3": "http://www.freesound.org/data/previews/160/160670_2790050-lq.mp3", 
+                    "user": {
+                        "username": "Fantom57", 
+                        "url": "http://www.freesound.org/people/Fantom57/", 
+                        "ref": "http://www.freesound.org/api/people/Fantom57/"
+                    }, 
+                    "spectral_l": "http://www.freesound.org/data/displays/160/160670_2790050_spec_L.jpg", 
+                    "type": "wav", 
+                    "duration": 2.8980299999999999, 
+                    "waveform_l": "http://www.freesound.org/data/displays/160/160670_2790050_wave_L.png", 
+                    "waveform_m": "http://www.freesound.org/data/displays/160/160670_2790050_wave_M.png", 
+                    "ref": "http://www.freesound.org/api/sounds/160670/", 
+                    "id": 160670, 
+                    "pack": "http://www.freesound.org/api/packs/9930/"
+                }, 
+                {
+                    "analysis_stats": "http://www.freesound.org/api/sounds/160669/analysis/", 
+                    "analysis_frames": "http://www.freesound.org/data/analysis/160/160669_2790050_frames.json", 
+                    "preview-hq-mp3": "http://www.freesound.org/data/previews/160/160669_2790050-hq.mp3", 
+                    "original_filename": "6-Gis4.wav", 
+                    "tags": [
+                        "Instruments", 
+                        "Sitar-Multisample", 
+                        "Oriental", 
+                        "India-Ethnic", 
+                        "World"
+                    ], 
+                    "url": "http://www.freesound.org/people/Fantom57/sounds/160669/", 
+                    "preview-hq-ogg": "http://www.freesound.org/data/previews/160/160669_2790050-hq.ogg", 
+                    "similarity": "http://www.freesound.org/api/sounds/160669/similar/", 
+                    "serve": "http://www.freesound.org/api/sounds/160669/serve/", 
+                    "preview-lq-ogg": "http://www.freesound.org/data/previews/160/160669_2790050-lq.ogg", 
+                    "spectral_m": "http://www.freesound.org/data/displays/160/160669_2790050_spec_M.jpg", 
+                    "preview-lq-mp3": "http://www.freesound.org/data/previews/160/160669_2790050-lq.mp3", 
+                    "user": {
+                        "username": "Fantom57", 
+                        "url": "http://www.freesound.org/people/Fantom57/", 
+                        "ref": "http://www.freesound.org/api/people/Fantom57/"
+                    }, 
+                    "spectral_l": "http://www.freesound.org/data/displays/160/160669_2790050_spec_L.jpg", 
+                    "type": "wav", 
+                    "duration": 2.7038500000000001, 
+                    "waveform_l": "http://www.freesound.org/data/displays/160/160669_2790050_wave_L.png", 
+                    "waveform_m": "http://www.freesound.org/data/displays/160/160669_2790050_wave_M.png", 
+                    "ref": "http://www.freesound.org/api/sounds/160669/", 
+                    "id": 160669, 
+                    "pack": "http://www.freesound.org/api/packs/9930/"
                 }
             ], 
-            "num_pages": 12, 
-            "next": "http://www.freesound.org/api/sounds/search/?q=hello&p=2&f=duration:[0%20TO%2010]&s=rating_desc&g=&sounds_per_page=10"
+            "num_pages": 43, 
+            "next": "http://www.freesound.org/api/sounds/search/?q=world&p=2&f=duration:[0%20TO%2010]&s=score&g=&sounds_per_page=10"
         }
     http_version: 
-  recorded_at: Sun, 17 Feb 2013 03:34:09 GMT
-- request: 
-    method: get
-    uri: http://www.freesound.org/api/sounds/search/?api_key=f21ede7f1694428ab829e72f52e3d2df&f=duration:%5B0%20TO%2010%5D&format=json&q=world&s=rating_desc&sounds_per_page=10
-    body: 
-      encoding: US-ASCII
-      string: ""
-    headers: 
-      Accept: 
-      - "*/*"
-      User-Agent: 
-      - Ruby
-  response: 
-    status: 
-      code: 200
-      message: OK
-    headers: 
-      Server: 
-      - nginx/1.0.15
-      Date: 
-      - Sun, 17 Feb 2013 03:34:08 GMT
-      Content-Type: 
-      - application/json; charset=utf-8
-      Transfer-Encoding: 
-      - chunked
-      Connection: 
-      - keep-alive
-      Vary: 
-      - Authorization, Cookie
-      Access-Control-Allow-Origin: 
-      - "*"
-      X-Freesound-Host: 
-      - fs-appserver1
-    body: 
-      encoding: ASCII-8BIT
-      string: "{\n    \"num_results\": 428, \n    \"sounds\": [\n        {\n            \"analysis_stats\": \"http://www.freesound.org/api/sounds/162661/analysis/\", \n            \"analysis_frames\": \"http://www.freesound.org/data/analysis/162/162661_2930071_frames.json\", \n            \"preview-hq-mp3\": \"http://www.freesound.org/data/previews/162/162661_2930071-hq.mp3\", \n            \"original_filename\": \"Kokouukuuu\", \n            \"tags\": [\n                \"crowing\", \n                \"crow\", \n                \"Arabic\", \n                \"Atlas\", \n                \"Kokouukuuu\", \n                \"Morocco\", \n                \"High\", \n                \"rooster\", \n                \"Moroccan\", \n                \"felix\", \n                \"cocorico\", \n                \"field-recording\", \n                \"blume\", \n                \"cocoricosound\", \n                \"sound\"\n            ], \n            \"url\": \"http://www.freesound.org/people/cocoricosound/sounds/162661/\", \n            \"preview-hq-ogg\": \"http://www.freesound.org/data/previews/162/162661_2930071-hq.ogg\", \n            \"similarity\": \"http://www.freesound.org/api/sounds/162661/similar/\", \n            \"serve\": \"http://www.freesound.org/api/sounds/162661/serve/\", \n            \"preview-lq-ogg\": \"http://www.freesound.org/data/previews/162/162661_2930071-lq.ogg\", \n            \"spectral_m\": \"http://www.freesound.org/data/displays/162/162661_2930071_spec_M.jpg\", \n            \"preview-lq-mp3\": \"http://www.freesound.org/data/previews/162/162661_2930071-lq.mp3\", \n            \"user\": {\n                \"username\": \"cocoricosound\", \n                \"url\": \"http://www.freesound.org/people/cocoricosound/\", \n                \"ref\": \"http://www.freesound.org/api/people/cocoricosound/\"\n            }, \n            \"spectral_l\": \"http://www.freesound.org/data/displays/162/162661_2930071_spec_L.jpg\", \n            \"type\": \"wav\", \n            \"duration\": 2.3786700000000001, \n            \"waveform_l\": \"http://www.freesound.org/data/displays/162/162661_2930071_wave_L.png\", \n            \"waveform_m\": \"http://www.freesound.org/data/displays/162/162661_2930071_wave_M.png\", \n            \"ref\": \"http://www.freesound.org/api/sounds/162661/\", \n            \"id\": 162661, \n            \"pack\": \"http://www.freesound.org/api/packs/10057/\"\n        }, \n        {\n            \"analysis_stats\": \"http://www.freesound.org/api/sounds/165128/analysis/\", \n            \"analysis_frames\": \"http://www.freesound.org/data/analysis/165/165128_2930071_frames.json\", \n            \"preview-hq-mp3\": \"http://www.freesound.org/data/previews/165/165128_2930071-hq.mp3\", \n            \"original_filename\": \"Kuk-kurri-kuuu\", \n            \"tags\": [\n                \"cock\", \n                \"turkish\", \n                \"cock-a-doodle-doo\", \n                \"Kuk-kurri-kuuu\", \n                \"cocorico\", \n                \"project\", \n                \"rooster\", \n                \"crowing\", \n                \"felix\", \n                \"crow\", \n                \"anatolia\", \n                \"field-recording\", \n                \"blume\", \n                \"cocoricosound\", \n                \"turkey\", \n                \"sound\"\n            ], \n            \"url\": \"http://www.freesound.org/people/cocoricosound/sounds/165128/\", \n            \"preview-hq-ogg\": \"http://www.freesound.org/data/previews/165/165128_2930071-hq.ogg\", \n            \"similarity\": \"http://www.freesound.org/api/sounds/165128/similar/\", \n            \"serve\": \"http://www.freesound.org/api/sounds/165128/serve/\", \n            \"preview-lq-ogg\": \"http://www.freesound.org/data/previews/165/165128_2930071-lq.ogg\", \n            \"spectral_m\": \"http://www.freesound.org/data/displays/165/165128_2930071_spec_M.jpg\", \n            \"preview-lq-mp3\": \"http://www.freesound.org/data/previews/165/165128_2930071-lq.mp3\", \n            \"user\": {\n                \"username\": \"cocoricosound\", \n                \"url\": \"http://www.freesound.org/people/cocoricosound/\", \n                \"ref\": \"http://www.freesound.org/api/people/cocoricosound/\"\n            }, \n            \"spectral_l\": \"http://www.freesound.org/data/displays/165/165128_2930071_spec_L.jpg\", \n            \"type\": \"wav\", \n            \"duration\": 2.31304, \n            \"waveform_l\": \"http://www.freesound.org/data/displays/165/165128_2930071_wave_L.png\", \n            \"waveform_m\": \"http://www.freesound.org/data/displays/165/165128_2930071_wave_M.png\", \n            \"ref\": \"http://www.freesound.org/api/sounds/165128/\", \n            \"id\": 165128, \n            \"pack\": \"http://www.freesound.org/api/packs/10057/\"\n        }, \n        {\n            \"analysis_stats\": \"http://www.freesound.org/api/sounds/110107/analysis/\", \n            \"analysis_frames\": \"http://www.freesound.org/data/analysis/110/110107_1163166_frames.json\", \n            \"preview-hq-mp3\": \"http://www.freesound.org/data/previews/110/110107_1163166-hq.mp3\", \n            \"original_filename\": \"pneumatic train door open.aif\", \n            \"tags\": [\n                \"opening\", \n                \"closing\", \n                \"cyber\", \n                \"door\", \n                \"foley\", \n                \"h4n\", \n                \"open\", \n                \"pneumatic\", \n                \"rail\", \n                \"rail-way\", \n                \"railway\", \n                \"sfx\", \n                \"spaceship\", \n                \"tomlija\", \n                \"train\", \n                \"way\", \n                \"close\", \n                \"zoom\"\n            ], \n            \"url\": \"http://www.freesound.org/people/Tomlija/sounds/110107/\", \n            \"preview-hq-ogg\": \"http://www.freesound.org/data/previews/110/110107_1163166-hq.ogg\", \n            \"similarity\": \"http://www.freesound.org/api/sounds/110107/similar/\", \n            \"serve\": \"http://www.freesound.org/api/sounds/110107/serve/\", \n            \"preview-lq-ogg\": \"http://www.freesound.org/data/previews/110/110107_1163166-lq.ogg\", \n            \"spectral_m\": \"http://www.freesound.org/data/displays/110/110107_1163166_spec_M.jpg\", \n            \"preview-lq-mp3\": \"http://www.freesound.org/data/previews/110/110107_1163166-lq.mp3\", \n            \"user\": {\n                \"username\": \"Tomlija\", \n                \"url\": \"http://www.freesound.org/people/Tomlija/\", \n                \"ref\": \"http://www.freesound.org/api/people/Tomlija/\"\n            }, \n            \"spectral_l\": \"http://www.freesound.org/data/displays/110/110107_1163166_spec_L.jpg\", \n            \"type\": \"aif\", \n            \"duration\": 9.8333333333299997, \n            \"waveform_l\": \"http://www.freesound.org/data/displays/110/110107_1163166_wave_L.png\", \n            \"waveform_m\": \"http://www.freesound.org/data/displays/110/110107_1163166_wave_M.png\", \n            \"ref\": \"http://www.freesound.org/api/sounds/110107/\", \n            \"id\": 110107, \n            \"pack\": \"http://www.freesound.org/api/packs/10775/\"\n        }, \n        {\n            \"analysis_stats\": \"http://www.freesound.org/api/sounds/164899/analysis/\", \n            \"analysis_frames\": \"http://www.freesound.org/data/analysis/164/164899_2930071_frames.json\", \n            \"preview-hq-mp3\": \"http://www.freesound.org/data/previews/164/164899_2930071-hq.mp3\", \n            \"original_filename\": \"Chicchirichiii\", \n            \"tags\": [\n                \"italian\", \n                \"cock\", \n                \"project\", \n                \"154957\", \n                \"chicchirichiii\", \n                \"samsung\", \n                \"sound\", \n                \"signor\", \n                \"vaso\", \n                \"signorvaso\", \n                \"map\", \n                \"android\", \n                \"cock-a-doodle-doo\", \n                \"italia\", \n                \"crowing\", \n                \"tuscania\", \n                \"brahma\", \n                \"cocoricosound\", \n                \"cocorico\", \n                \"rooster\", \n                \"india\", \n                \"crow\"\n            ], \n            \"url\": \"http://www.freesound.org/people/cocoricosound/sounds/164899/\", \n            \"preview-hq-ogg\": \"http://www.freesound.org/data/previews/164/164899_2930071-hq.ogg\", \n            \"similarity\": \"http://www.freesound.org/api/sounds/164899/similar/\", \n            \"serve\": \"http://www.freesound.org/api/sounds/164899/serve/\", \n            \"preview-lq-ogg\": \"http://www.freesound.org/data/previews/164/164899_2930071-lq.ogg\", \n            \"spectral_m\": \"http://www.freesound.org/data/displays/164/164899_2930071_spec_M.jpg\", \n            \"preview-lq-mp3\": \"http://www.freesound.org/data/previews/164/164899_2930071-lq.mp3\", \n            \"user\": {\n                \"username\": \"cocoricosound\", \n                \"url\": \"http://www.freesound.org/people/cocoricosound/\", \n                \"ref\": \"http://www.freesound.org/api/people/cocoricosound/\"\n            }, \n            \"spectral_l\": \"http://www.freesound.org/data/displays/164/164899_2930071_spec_L.jpg\", \n            \"type\": \"wav\", \n            \"duration\": 2.8484600000000002, \n            \"waveform_l\": \"http://www.freesound.org/data/displays/164/164899_2930071_wave_L.png\", \n            \"waveform_m\": \"http://www.freesound.org/data/displays/164/164899_2930071_wave_M.png\", \n            \"ref\": \"http://www.freesound.org/api/sounds/164899/\", \n            \"id\": 164899, \n            \"pack\": \"http://www.freesound.org/api/packs/10057/\"\n        }, \n        {\n            \"analysis_stats\": \"http://www.freesound.org/api/sounds/166745/analysis/\", \n            \"analysis_frames\": \"http://www.freesound.org/data/analysis/166/166745_2930071_frames.json\", \n            \"preview-hq-mp3\": \"http://www.freesound.org/data/previews/166/166745_2930071-hq.mp3\", \n            \"original_filename\": \"Cock-a-doodle-doo\", \n            \"tags\": [\n                \"29535\", \n                \"cock\", \n                \"Cock-a-doodle-doo\", \n                \"English\", \n                \"cocoricosound\", \n                \"cocorico\", \n                \"project\", \n                \"rooster\", \n                \"crowing\", \n                \"sound\", \n                \"crow\", \n                \"map\", \n                \"england\", \n                \"United\", \n                \"mike\", \n                \"Hirst\", \n                \"Kingdom\"\n            ], \n            \"url\": \"http://www.freesound.org/people/cocoricosound/sounds/166745/\", \n            \"preview-hq-ogg\": \"http://www.freesound.org/data/previews/166/166745_2930071-hq.ogg\", \n            \"similarity\": \"http://www.freesound.org/api/sounds/166745/similar/\", \n            \"serve\": \"http://www.freesound.org/api/sounds/166745/serve/\", \n            \"preview-lq-ogg\": \"http://www.freesound.org/data/previews/166/166745_2930071-lq.ogg\", \n            \"spectral_m\": \"http://www.freesound.org/data/displays/166/166745_2930071_spec_M.jpg\", \n            \"preview-lq-mp3\": \"http://www.freesound.org/data/previews/166/166745_2930071-lq.mp3\", \n            \"user\": {\n                \"username\": \"cocoricosound\", \n                \"url\": \"http://www.freesound.org/people/cocoricosound/\", \n                \"ref\": \"http://www.freesound.org/api/people/cocoricosound/\"\n            }, \n            \"spectral_l\": \"http://www.freesound.org/data/displays/166/166745_2930071_spec_L.jpg\", \n            \"type\": \"wav\", \n            \"duration\": 1.50454, \n            \"waveform_l\": \"http://www.freesound.org/data/displays/166/166745_2930071_wave_L.png\", \n            \"waveform_m\": \"http://www.freesound.org/data/displays/166/166745_2930071_wave_M.png\", \n            \"ref\": \"http://www.freesound.org/api/sounds/166745/\", \n            \"id\": 166745, \n            \"pack\": \"http://www.freesound.org/api/packs/10057/\"\n        }, \n        {\n            \"analysis_stats\": \"http://www.freesound.org/api/sounds/165467/analysis/\", \n            \"analysis_frames\": \"http://www.freesound.org/data/analysis/165/165467_2930071_frames.json\", \n            \"preview-hq-mp3\": \"http://www.freesound.org/data/previews/165/165467_2930071-hq.mp3\", \n            \"original_filename\": \"Quiquiriqu\xC3\xAD\", \n            \"tags\": [\n                \"spain\", \n                \"39923\", \n                \"cock\", \n                \"cock-a-doodle-doo\", \n                \"spanish\", \n                \"Quiquiriqu\", \n                \"project\", \n                \"rooster\", \n                \"crowing\", \n                \"sevilla\", \n                \"crow\", \n                \"Cocorico\", \n                \"cocoricosound\", \n                \"dobroide\", \n                \"map\", \n                \"sound\"\n            ], \n            \"url\": \"http://www.freesound.org/people/cocoricosound/sounds/165467/\", \n            \"preview-hq-ogg\": \"http://www.freesound.org/data/previews/165/165467_2930071-hq.ogg\", \n            \"similarity\": \"http://www.freesound.org/api/sounds/165467/similar/\", \n            \"serve\": \"http://www.freesound.org/api/sounds/165467/serve/\", \n            \"preview-lq-ogg\": \"http://www.freesound.org/data/previews/165/165467_2930071-lq.ogg\", \n            \"spectral_m\": \"http://www.freesound.org/data/displays/165/165467_2930071_spec_M.jpg\", \n            \"preview-lq-mp3\": \"http://www.freesound.org/data/previews/165/165467_2930071-lq.mp3\", \n            \"user\": {\n                \"username\": \"cocoricosound\", \n                \"url\": \"http://www.freesound.org/people/cocoricosound/\", \n                \"ref\": \"http://www.freesound.org/api/people/cocoricosound/\"\n            }, \n            \"spectral_l\": \"http://www.freesound.org/data/displays/165/165467_2930071_spec_L.jpg\", \n            \"type\": \"wav\", \n            \"duration\": 3.36246, \n            \"waveform_l\": \"http://www.freesound.org/data/displays/165/165467_2930071_wave_L.png\", \n            \"waveform_m\": \"http://www.freesound.org/data/displays/165/165467_2930071_wave_M.png\", \n            \"ref\": \"http://www.freesound.org/api/sounds/165467/\", \n            \"id\": 165467, \n            \"pack\": \"http://www.freesound.org/api/packs/10057/\"\n        }, \n        {\n            \"analysis_stats\": \"http://www.freesound.org/api/sounds/165071/analysis/\", \n            \"analysis_frames\": \"http://www.freesound.org/data/analysis/165/165071_2930071_frames.json\", \n            \"preview-hq-mp3\": \"http://www.freesound.org/data/previews/165/165071_2930071-hq.mp3\", \n            \"original_filename\": \"Kokoro'o\", \n            \"tags\": [\n                \"kokoroo\", \n                \"guarani\", \n                \"cock\", \n                \"paraguay\", \n                \"spanish\", \n                \"Quiquiriqui\", \n                \"Cocorico\", \n                \"project\", \n                \"rooster\", \n                \"Zoom\", \n                \"Lahaye\", \n                \"cock-a-doodle-doo\", \n                \"Tito\", \n                \"crow\", \n                \"H2\", \n                \"84256\", \n                \"crowing\", \n                \"cocoricosound\", \n                \"map\", \n                \"sound\"\n            ], \n            \"url\": \"http://www.freesound.org/people/cocoricosound/sounds/165071/\", \n            \"preview-hq-ogg\": \"http://www.freesound.org/data/previews/165/165071_2930071-hq.ogg\", \n            \"similarity\": \"http://www.freesound.org/api/sounds/165071/similar/\", \n            \"serve\": \"http://www.freesound.org/api/sounds/165071/serve/\", \n            \"preview-lq-ogg\": \"http://www.freesound.org/data/previews/165/165071_2930071-lq.ogg\", \n            \"spectral_m\": \"http://www.freesound.org/data/displays/165/165071_2930071_spec_M.jpg\", \n            \"preview-lq-mp3\": \"http://www.freesound.org/data/previews/165/165071_2930071-lq.mp3\", \n            \"user\": {\n                \"username\": \"cocoricosound\", \n                \"url\": \"http://www.freesound.org/people/cocoricosound/\", \n                \"ref\": \"http://www.freesound.org/api/people/cocoricosound/\"\n            }, \n            \"spectral_l\": \"http://www.freesound.org/data/displays/165/165071_2930071_spec_L.jpg\", \n            \"type\": \"wav\", \n            \"duration\": 2.1349999999999998, \n            \"waveform_l\": \"http://www.freesound.org/data/displays/165/165071_2930071_wave_L.png\", \n            \"waveform_m\": \"http://www.freesound.org/data/displays/165/165071_2930071_wave_M.png\", \n            \"ref\": \"http://www.freesound.org/api/sounds/165071/\", \n            \"id\": 165071, \n            \"pack\": \"http://www.freesound.org/api/packs/10057/\"\n        }, \n        {\n            \"analysis_stats\": \"http://www.freesound.org/api/sounds/165047/analysis/\", \n            \"analysis_frames\": \"http://www.freesound.org/data/analysis/165/165047_2930071_frames.json\", \n            \"preview-hq-mp3\": \"http://www.freesound.org/data/previews/165/165047_2930071-hq.mp3\", \n            \"original_filename\": \"C\xC3\xB3 c\xC3\xB3 r\xC3\xB3 c\xC3\xB3\", \n            \"tags\": [\n                \"cock\", \n                \"cocoroco\", \n                \"cock-a-doodle-doo\", \n                \"porto\", \n                \"r\", \n                \"map\", \n                \"cocorico\", \n                \"project\", \n                \"rooster\", \n                \"C\", \n                \"crowing\", \n                \"76443\", \n                \"crow\", \n                \"Matthias\", \n                \"portugal\", \n                \"Hunsinsky\", \n                \"cocoricosound\", \n                \"c\", \n                \"portuguese\", \n                \"sound\"\n            ], \n            \"url\": \"http://www.freesound.org/people/cocoricosound/sounds/165047/\", \n            \"preview-hq-ogg\": \"http://www.freesound.org/data/previews/165/165047_2930071-hq.ogg\", \n            \"similarity\": \"http://www.freesound.org/api/sounds/165047/similar/\", \n            \"serve\": \"http://www.freesound.org/api/sounds/165047/serve/\", \n            \"preview-lq-ogg\": \"http://www.freesound.org/data/previews/165/165047_2930071-lq.ogg\", \n            \"spectral_m\": \"http://www.freesound.org/data/displays/165/165047_2930071_spec_M.jpg\", \n            \"preview-lq-mp3\": \"http://www.freesound.org/data/previews/165/165047_2930071-lq.mp3\", \n            \"user\": {\n                \"username\": \"cocoricosound\", \n                \"url\": \"http://www.freesound.org/people/cocoricosound/\", \n                \"ref\": \"http://www.freesound.org/api/people/cocoricosound/\"\n            }, \n            \"spectral_l\": \"http://www.freesound.org/data/displays/165/165047_2930071_spec_L.jpg\", \n            \"type\": \"wav\", \n            \"duration\": 1.85792, \n            \"waveform_l\": \"http://www.freesound.org/data/displays/165/165047_2930071_wave_L.png\", \n            \"waveform_m\": \"http://www.freesound.org/data/displays/165/165047_2930071_wave_M.png\", \n            \"ref\": \"http://www.freesound.org/api/sounds/165047/\", \n            \"id\": 165047, \n            \"pack\": \"http://www.freesound.org/api/packs/10057/\"\n        }, \n        {\n            \"analysis_stats\": \"http://www.freesound.org/api/sounds/164912/analysis/\", \n            \"analysis_frames\": \"http://www.freesound.org/data/analysis/164/164912_2930071_frames.json\", \n            \"preview-hq-mp3\": \"http://www.freesound.org/data/previews/164/164912_2930071-hq.mp3\", \n            \"original_filename\": \"Cocoric\xC3\xB3\", \n            \"tags\": [\n                \"cock\", \n                \"gerais\", \n                \"cock-a-doodle-doo\", \n                \"brazilian\", \n                \"Cocoric\", \n                \"cocoricosound\", \n                \"map\", \n                \"21711\", \n                \"project\", \n                \"rooster\", \n                \"Romero\", \n                \"portuguese\", \n                \"crow\", \n                \"cocorico\", \n                \"Matias\", \n                \"crowing\", \n                \"minas\", \n                \"brazil\", \n                \"sound\"\n            ], \n            \"url\": \"http://www.freesound.org/people/cocoricosound/sounds/164912/\", \n            \"preview-hq-ogg\": \"http://www.freesound.org/data/previews/164/164912_2930071-hq.ogg\", \n            \"similarity\": \"http://www.freesound.org/api/sounds/164912/similar/\", \n            \"serve\": \"http://www.freesound.org/api/sounds/164912/serve/\", \n            \"preview-lq-ogg\": \"http://www.freesound.org/data/previews/164/164912_2930071-lq.ogg\", \n            \"spectral_m\": \"http://www.freesound.org/data/displays/164/164912_2930071_spec_M.jpg\", \n            \"preview-lq-mp3\": \"http://www.freesound.org/data/previews/164/164912_2930071-lq.mp3\", \n            \"user\": {\n                \"username\": \"cocoricosound\", \n                \"url\": \"http://www.freesound.org/people/cocoricosound/\", \n                \"ref\": \"http://www.freesound.org/api/people/cocoricosound/\"\n            }, \n            \"spectral_l\": \"http://www.freesound.org/data/displays/164/164912_2930071_spec_L.jpg\", \n            \"type\": \"wav\", \n            \"duration\": 2.0388700000000002, \n            \"waveform_l\": \"http://www.freesound.org/data/displays/164/164912_2930071_wave_L.png\", \n            \"waveform_m\": \"http://www.freesound.org/data/displays/164/164912_2930071_wave_M.png\", \n            \"ref\": \"http://www.freesound.org/api/sounds/164912/\", \n            \"id\": 164912, \n            \"pack\": \"http://www.freesound.org/api/packs/10057/\"\n        }, \n        {\n            \"analysis_stats\": \"http://www.freesound.org/api/sounds/164615/analysis/\", \n            \"analysis_frames\": \"http://www.freesound.org/data/analysis/164/164615_2930071_frames.json\", \n            \"preview-hq-mp3\": \"http://www.freesound.org/data/previews/164/164615_2930071-hq.mp3\", \n            \"original_filename\": \"Ku-ka-re-ku\", \n            \"tags\": [\n                \"108670\", \n                \"Russia\", \n                \"cock\", \n                \"Russian\", \n                \"crow\", \n                \"hotlavan\", \n                \"cocorico\", \n                \"project\", \n                \"rooster\", \n                \"crowing\", \n                \"cock-a-doodle-doo\", \n                \"Ku-ka-re-ku\", \n                \"cocoricosound\", \n                \"map\", \n                \"sound\"\n            ], \n            \"url\": \"http://www.freesound.org/people/cocoricosound/sounds/164615/\", \n            \"preview-hq-ogg\": \"http://www.freesound.org/data/previews/164/164615_2930071-hq.ogg\", \n            \"similarity\": \"http://www.freesound.org/api/sounds/164615/similar/\", \n            \"serve\": \"http://www.freesound.org/api/sounds/164615/serve/\", \n            \"preview-lq-ogg\": \"http://www.freesound.org/data/previews/164/164615_2930071-lq.ogg\", \n            \"spectral_m\": \"http://www.freesound.org/data/displays/164/164615_2930071_spec_M.jpg\", \n            \"preview-lq-mp3\": \"http://www.freesound.org/data/previews/164/164615_2930071-lq.mp3\", \n            \"user\": {\n                \"username\": \"cocoricosound\", \n                \"url\": \"http://www.freesound.org/people/cocoricosound/\", \n                \"ref\": \"http://www.freesound.org/api/people/cocoricosound/\"\n            }, \n            \"spectral_l\": \"http://www.freesound.org/data/displays/164/164615_2930071_spec_L.jpg\", \n            \"type\": \"wav\", \n            \"duration\": 2.3879999999999999, \n            \"waveform_l\": \"http://www.freesound.org/data/displays/164/164615_2930071_wave_L.png\", \n            \"waveform_m\": \"http://www.freesound.org/data/displays/164/164615_2930071_wave_M.png\", \n            \"ref\": \"http://www.freesound.org/api/sounds/164615/\", \n            \"id\": 164615, \n            \"pack\": \"http://www.freesound.org/api/packs/10057/\"\n        }\n    ], \n    \"num_pages\": 43, \n    \"next\": \"http://www.freesound.org/api/sounds/search/?q=world&p=2&f=duration:[0%20TO%2010]&s=rating_desc&g=&sounds_per_page=10\"\n\
-        }"
-    http_version: 
-  recorded_at: Sun, 17 Feb 2013 03:34:09 GMT
+  recorded_at: Sun, 17 Feb 2013 03:39:59 GMT
 recorded_with: VCR 2.4.0

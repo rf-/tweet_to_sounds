@@ -6,8 +6,8 @@ module Freesound
                    search: {
                      q: query,
                      sounds_per_page: 10,
-                     f: "duration:[0%20TO%2010]",
-                     s: "rating_desc"
+                     f: "duration:[0%20TO%2010]"
+                     #s: "rating_desc"
                    }
                  )
       response = request.get!
