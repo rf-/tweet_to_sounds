@@ -4,10 +4,6 @@ module TweetToSounds
       @keywords = keywords
     end
 
-    def urls
-      sounds.map &:preview_hq_mp3
-    end
-
     def sounds
       @sounds ||= begin
         keywords = pick_keywords(@keywords)
