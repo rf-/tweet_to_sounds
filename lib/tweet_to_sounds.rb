@@ -26,7 +26,10 @@ module TweetToSounds
     end
 
     def freesound
-      @freesound ||= Freesound::Client.new(freesound_api_key)
+      @freesound ||= begin
+        Freesound.api_key = freesound_api_key
+        Freesound::Client.new
+      end
     end
 
     def freesound_api_key
